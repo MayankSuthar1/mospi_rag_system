@@ -28,7 +28,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     
     # API endpoints for different apps
-    path('api/users/', include('users.urls')),
+    path('api/auth/', include('users.urls')),
     path('api/documents/', include('documents.urls')),
     path('api/conversations/', include('conversation.urls')),
     path('api/analytics/', include('analytics.urls')),
