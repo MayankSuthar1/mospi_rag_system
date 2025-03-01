@@ -30,10 +30,10 @@ static/
 
 # Virtual Environment
 venv/
-ENV/
+
 
 # Environment variables
-.env
+
 
 # IDE
 .idea/
